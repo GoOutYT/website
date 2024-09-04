@@ -71,7 +71,7 @@ header a:hover{
     padding-right: 30%;
     box-sizing: border-box;
     color: #fff;
-    text-shadow: 0 5px 10px #0004;
+    text-shadow: 1 1px 2px #0004;
 }
 
 .slider .list .item .content .title,
