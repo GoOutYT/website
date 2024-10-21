@@ -69,38 +69,42 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 78%;
     margin: auto;
+    height: 70%;
 }
 
 #title {
-    font-size: 30px;
+    font-size: 2rem;
     text-shadow: 2px 2px 5px var(--text-shadow-color); 
 }
 
 #discription {
-    font-size: 18px;
+    font-size: 1rem;
     text-shadow: 1px 1px 3px var(--text-shadow-color);
 }
 
 #contact {
-    font-size: 24px;
+    font-size: 1rem;
     text-shadow: 2px 2px 5px var(--text-shadow-color);
 }
 
 #outro {
-    font-size: 20px;
+    font-size: 1.4rem;
     text-shadow: 1px 1px 3px var(--text-shadow-color);
 }
 
 .about {
-    padding: 20px;
+    padding: 2rem;
 }
 
 #socials {
-    margin-top: 20px;
     padding: 0;
     list-style: none;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 .links {
@@ -108,10 +112,10 @@ header a:hover {
     text-decoration: none;
     background-color: #CA5FFF;
     color: white;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 1% 2%;
+    margin: 1%;
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 100%;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
